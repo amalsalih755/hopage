@@ -1,0 +1,128 @@
+body {
+      background-color: #E5EFF5;
+      font-family: Arial, sans-serif;
+      color: #98A6BD;
+    }
+
+    .container {
+      width: 1000px; 
+      height: 500px;   
+      /* margin: 40px auto; */
+      background-color: hsl(0, 47%, 96%);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* the head */
+    .top-box {
+      width: 478px;     
+      height: 170px;     
+      background-color: white;
+      padding: 20px;
+      /* position: relative; */
+      /* left: 55px; */
+      margin-top: 30px;
+     
+
+      text-align: left;
+    }
+
+    .top-box h3 {
+      color: hsl(180, 85%, 33%);
+      margin-bottom: 10px;
+    }
+
+    .top-box h4 {
+      color: #C0DF34;
+      margin-bottom: 15px;
+    }
+
+    .top-box p {
+      line-height: 1.5;
+      margin-left: 10px;
+      text-align: justify;
+    }
+
+    /* the under part */
+    .bottom-container {
+        /* position: relative; */
+        
+        width: 518px; 
+      display: flex;     
+      height: 240px;     
+      margin-top: 0; 
+      /* left: 40px;     */
+    }
+
+    .left {
+      flex: 1;
+      background-color: #0a8583;
+      color: white;
+      padding: 20px;
+    }
+
+    .left h3 {
+      margin-bottom: 10px;
+    }
+
+    .left h2 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .left h2 span {
+      font-size: 14px;
+      color: #E5EFF5;
+      margin-left: 5px;
+    }
+
+    .left p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    .button {
+      background-color: #C0DF34;
+      border: none;
+      width: 100%;
+      padding: 12px 0;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      opacity: 0.9;
+    }
+
+    .right {
+      flex: 1;
+      background-color: #2AB2AF;
+      color: #333;
+      padding: 20px;
+    }
+
+    .right h3 {
+      margin-bottom: 15px;
+      color: hsl(180, 33%, 98%);
+    }
+
+    .right p {
+      margin-left: 10px;
+      margin-bottom: 8px;
+      text-align: justify;
+      font-size: 14px;
+    }
+    #mar{
+        position: relative;
+        left: 244px;
+      
+        
+
+    }
+
+    
+     
